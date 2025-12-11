@@ -1,74 +1,63 @@
-# ⚙️ Data Extraction and Transformation (Power Query Phase) 🧰
+# ✨ 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐑𝐄𝐀𝐃𝐌𝐄: 𝐄𝐧𝐝-𝐭𝐨-𝐄𝐧𝐝 𝐃𝐚𝐭𝐚 𝐌𝐨𝐝𝐞𝐥𝐢𝐧𝐠 𝐚𝐧𝐝 𝐓𝐫𝐚𝐧𝐬𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 🚀
 
-## Project Overview
+## 📜 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐎𝐯𝐞𝐫𝐯𝐢𝐞𝐰
 
-This phase focused entirely on advanced data extraction and robust transformations using **Power Query**. The goal was to clean, standardize, merge, and enrich the raw source data, preparing it for the final data modeling stage.
+This comprehensive project established a robust, relational **Star Schema** for BI reporting, focusing on Sales and Returns data. It covered all phases, from initial data extraction and advanced Power Query transformations to defining the final dimensional model, relationships, and hierarchies.
 
 ---
 
-## 1. Data Extraction & Ingestion
+## 🛠️ 𝐏𝐡𝐚𝐬𝐞 𝐈: 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐃𝐚𝐭𝐚 𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐢𝐨𝐧 & 𝐓𝐫𝐚𝐧𝐬𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧
 
-Multiple diverse data sources were connected and loaded into the environment:
+This section highlights the rigorous data preparation and standardization conducted using **Power Query**.
 
-* 🌐 **Web Data:** An **HTML table** (e.g., public statistics) was successfully loaded from the web.
-* 📁 **Folder Integration:** Three monthly Excel files (`Sales_Jan.xlsx`, `Sales_Feb.xlsx`, `Sales_Mar.xlsx`) were loaded from a **folder source** using the **Append Queries from Folder** feature, ensuring efficient scaling for new months.
-* 🧑‍💻 **Employee Data:** An `employee dataset` (containing EmployeeID, Name, Department, Region, Join Date) was loaded from a separate Excel source.
+### 1. 𝙸𝚗𝚐𝚎𝚜𝚝𝚒𝚘𝚗 & 𝚂𝚘𝚞𝚛𝚌𝚎 𝙼𝚊𝚗𝚊𝚐𝚎𝚖𝚎𝚗𝚝
+* **Diverse Sources:** Loaded data from an $\text{HTML table}$ (web source), a folder containing multiple $\text{monthly Excel files}$ (using Append Queries from Folder), and a separate $\text{employee dataset}$.
+* **Query Appending:** Used the **Append Queries as New** feature to append Jan-Mar sales data.
+* **Dynamic Configuration:** Configured a dynamic folder path using **Parameters** and modified data source credentials under **Data Source Settings**.
 
-## 2. Core Data Cleansing and Quality
+### 2. 𝚃𝚛𝚊𝚗𝚜𝚏𝚘𝚛𝚖𝚊𝚝𝚒𝚘𝚗𝚜 & 𝙳𝚊𝚝𝚊 𝚀𝚞𝚊𝚕𝚒𝚝𝚢
+| Area | Techniques Applied |
+| :--- | :--- |
+| **Basic Cleaning** | Removed blank rows and columns; promoted first row to headers; renamed columns; removed duplicates and filtered null values. |
+| **Text Tools** | Used $\text{UPPER(), LOWER(), TRIM(), CLEAN(), REPLACE()}$, and $\text{SPLIT COLUMN BY DELIMITER}$ to clean and standardize customer names and address fields. |
+| **Numeric Tools** | Rounded revenue to 2 decimal places and created the calculated column: $\text{Profit} = \text{Revenue} - \text{Cost}$. |
+| **Date Tools** | Extracted Day, Month, Year, and Quarter from $\text{Order Date}$; created a **custom Fiscal Month** column; and added an age column from $\text{Birthdate}$. |
+| **Merging & Grouping** | $\text{Merged}$ Sales Data with Employee Data using $\text{Region}$ or $\text{EmployeeID}$; $\text{Grouped}$ data by Region to compute Total Sales, Average Order Value, and Transaction Count. |
+| **Quality** | Used **Column Profile, Distribution, and Quality tools** to identify missing values, detect errors, and understand distinct and unique values. |
 
-Standard fundamental transformations were applied across all datasets to establish a clean starting point.
+### 3. 𝙲𝚘𝚗𝚍𝚒𝚝𝚒𝚘𝚗𝚊𝚕 𝙻𝚘𝚐𝚒𝚌 & 𝚁𝚎𝚜𝚑𝚊𝚙𝚒𝚗𝚐
+* 🏷️ **Conditional Column:** Created a **Sales Category** column (High $\ge$ 10,000, Medium 5,000–9,999, Low $<$ 5,000).
+* 🔢 **Indexing:** Added both 0-based and 1-based Index columns.
+* 🔄 **Data Reshaping:** Performed both $\text{Pivoting}$ (to convert monthly columns to a single column) and subsequent $\text{Unpivoting}$ (to return data to a normalized form).
+* ♻️ **Refresh Simulation:** Successfully simulated adding a new file ($\text{Sales\_Apr.xlsx}$) and verified that queries auto-load and transformations are maintained.
 
-* 🧹 **Basic Cleaning:** Blank rows and columns were removed, the first row was promoted to headers, and columns were renamed to meaningful names.
-* 📊 **Data Types & Locales:** Data types were changed appropriately, utilizing **Change Type with Locale** for accurate handling of currency and date formats.
-* 🗑️ **Duplication & Nulls:** Duplicates were removed, and null values were filtered out to ensure data quality.
+---
 
-## 3. Data Enhancement Transformations
+## 🏗️ 𝐏𝐡𝐚𝐬𝐞 𝐈𝐈: 𝐒𝐜𝐡𝐞𝐦𝐚 𝐃𝐞𝐬𝐢𝐠𝐧 & 𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩 𝐂𝐨𝐧𝐬𝐭𝐫𝐮𝐜𝐭𝐢𝐨𝐧
 
-Advanced functions were used to enrich the data, standardize fields, and derive new analytical columns.
+This section details the construction of the dimensional model and its usability features.
 
-### Text & Standardization Tools
-* 📝 **Field Standardization:** Utilized functions like `UPPER()`, `LOWER()`, `TRIM()`, `CLEAN()`, `REPLACE()`, and **Split Column by Delimiter** to clean and standardize customer names and address fields.
+### 1. 𝕯𝖆𝖙𝖆 𝕸𝖔𝖉𝖊𝖑 𝕬𝖗𝖈𝖍𝖎𝖙𝖊𝖈𝖙𝖚𝖗𝖊
+* **Schema:** Implemented a **Star Schema** using $\text{Sales\_Fact}$ as the central table.
+* **Data Preparation:** Imported all files via **Power Query**, applied proper data types, and removed blank rows.
+* **Relationships:** Defined $\text{Primary Keys}$ and $\text{Foreign Keys}$ manually and created all core relationships:
+    * `Sales_Fact` $\rightarrow$ `Customer_Dim`, `Product_Dim`, `Region_Dim`, `Date_Dim`
+    * `Returns_Fact` $\rightarrow$ `Sales_Fact`
+* **Advanced Filtering:** The $\text{Returns\_Fact} \rightarrow \text{Date\_Dim}$ relationship was set as an **inactive relationship** for the $\text{ReturnDateKey}$.
+* **Integrity:** Set appropriate $\text{cardinalities}$ and $\text{cross-filter directions}$ (preferably single), enabled bidirectional filters only where justified, and resolved all **filter ambiguity** issues.
 
-### Numeric & Calculation Tools
-* 💰 **Revenue Precision:** Revenue columns were rounded to 2 decimal places.
-* ➕ **Derived Metrics:** A new calculated column for **Profit** was created using the formula: $\text{Profit} = \text{Revenue} - \text{Cost}$.
+### 2. 𝕽𝖊𝖕𝖔𝖗𝖙𝖎𝖓𝖌 𝕰𝖓𝖍𝖆𝖓𝖈𝖊𝖒𝖊𝖓𝖙𝖘
+* **Data Categories:** Defined categories (e.g., City, Country, ProductName) for proper sorting.
+* **Reporting Hierarchies:** Built essential drill-down structures for intuitive analysis:
+    * $\text{Date\_Dim}$: Year $>$ Quarter $>$ Month $>$ Date
+    * $\text{Region\_Dim}$: Country $>$ State $>$ City
+    * $\text{Product\_Dim}$: Category $>$ Subcategory $>$ ProductName
 
-### Date & Time Intelligence Tools
-* 📅 **Date Components:** Day, Month, Year, and Quarter were extracted from the $\text{Order Date}$.
-* 🗓️ **Fiscal Month:** A **custom Fiscal Month** column was created.
-* ⏳ **Age Calculation:** An age column was added, calculated from the `Birthdate` field.
+## ✅ 𝐕𝐞𝐫𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐒𝐭𝐞𝐩
 
-### Conditional Logic & Indexing
-* 🏷️ **Sales Category:** A new conditional column, **Sales Category**, was created to bucket sales values:
-    * **High** ($\ge$ 10,000)
-    * **Medium** (5,000 – 9,999)
-    * **Low** ($<$ 5,000)
-* 🔢 **Indexing:** Both 0-based and 1-based Index columns were added for positional referencing.
-
-### Pivoting & Reshaping
-* 🔄 **Reshaping Data:** Performed both **Pivot** operations (to convert monthly columns into a single column) and subsequent **Unpivot** operations (to revert sales data back into a normalized, tidy format).
-
-## 4. Integration, Aggregation, & Profiling
-
-The final steps involved combining datasets, aggregating data for summary metrics, and ensuring overall data quality.
-
-* 🤝 **Merging & Appending:**
-    * Sales data was **Merged** with Employee Data using either **Region** or **EmployeeID**.
-    * Jan-Mar sales data was **Appended** using the `Append Queries as New` feature.
-* 📈 **Grouping & Aggregation:** Data was grouped by **Region** to compute key summary metrics:
-    * Total Sales
-    * Average Order Value
-    * Transaction Count
-* 🔬 **Data Profiling:** Utilized the **Column Profile, Column Distribution, and Column Quality** tools to:
-    * Identify missing values.
-    * Detect column-level errors.
-    * Understand distinct and unique values.
-
-## 5. Source Management & Refresh Simulation
-
-The project included steps to make the data solution dynamic, configurable, and ready for future monthly refreshes.
-
-* 🛠️ **Source Configuration:** **Parameters** were configured to support a dynamic folder path, and data source credentials were modified under **Data Source Settings**.
-* ♻️ **Refresh Simulation:** The process was validated by simulating the addition of a new monthly file (`Sales_Apr.xlsx`) to ensure queries **auto-load** and transformations are **maintained** upon refresh.
+The complete model was validated using a **Matrix Table** (the only allowed visual) to confirm accuracy across key analytical dimensions:
+* Sales grouped by Product Category and Region.
+* Return reasons by Fiscal Year.
+* Revenue by Customer Segment.
 
 ---
