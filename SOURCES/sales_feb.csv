@@ -1,0 +1,101 @@
+Order ID,Date,Customer Name,Region,Category,Product,Quantity,Total Sales
+ORD-2001,2025-02-28,Eve Brown,North,Furniture,Table,6,900
+ORD-2002,2025-02-02,Eve Davis,North,Furniture,Chair,2,200
+ORD-2003,2025-02-03,Jane Brown,West,Office Supplies,Pen Set,9,90
+ORD-2004,2025-02-01,Eve Doe,South,Electronics,Smartphone,8,4800
+ORD-2005,2025-02-12,John Smith,West,Office Supplies,Pen Set,5,50
+ORD-2006,2025-02-06,Alice Davis,East,Electronics,Smartphone,3,1800
+ORD-2007,2025-02-08,Jane Moore,North,Office Supplies,Pen Set,6,60
+ORD-2008,2025-02-02,Jane Brown,West,Furniture,Table,2,300
+ORD-2009,2025-02-21,Alice Moore,East,Clothing,Jeans,1,40
+ORD-2010,2025-02-27,John Moore,North,Furniture,Chair,4,400
+ORD-2011,2025-02-17,John Wilson,West,Office Supplies,Pen Set,3,30
+ORD-2012,2025-02-19,Alice Smith,South,Clothing,Sneakers,10,500
+ORD-2013,2025-02-25,Eve Miller,West,Furniture,Bookshelf,3,240
+ORD-2014,2025-02-13,Frank Miller,West,Office Supplies,Paper,7,56
+ORD-2015,2025-02-23,John Doe,South,Furniture,Chair,8,800
+ORD-2016,2025-02-10,John Moore,East,Electronics,Laptop,9,7200
+ORD-2017,2025-02-20,Charlie Smith,East,Furniture,Desk,10,2000
+ORD-2018,2025-02-24,Alice Moore,West,Clothing,Sneakers,2,100
+ORD-2019,2025-02-22,Jane Doe,South,Office Supplies,Pen Set,8,80
+ORD-2020,2025-02-16,Alice Wilson,West,Clothing,Sneakers,2,100
+ORD-2021,2025-02-02,Eve Moore,West,Clothing,Jeans,10,400
+ORD-2022,2025-02-20,Frank Davis,West,Office Supplies,Paper,5,40
+ORD-2023,2025-02-05,Eve Miller,South,Office Supplies,Pen Set,10,100
+ORD-2024,2025-02-15,Jane Wilson,South,Clothing,Jeans,2,80
+ORD-2025,2025-02-06,Frank Smith,West,Furniture,Chair,4,400
+ORD-2026,2025-02-21,Frank Johnson,South,Electronics,Laptop,1,800
+ORD-2027,2025-02-03,Charlie Doe,South,Electronics,Headphones,6,300
+ORD-2028,2025-02-03,Alice Johnson,East,Furniture,Desk,10,2000
+ORD-2029,2025-02-22,Alice Moore,East,Electronics,Headphones,9,450
+ORD-2030,2025-02-20,Frank Moore,West,Electronics,Smartphone,8,4800
+ORD-2031,2025-02-18,Bob Wilson,South,Clothing,Jeans,3,120
+ORD-2032,2025-02-18,Eve Miller,South,Office Supplies,Stapler,7,84
+ORD-2033,2025-02-01,Jane Moore,North,Clothing,Jacket,6,360
+ORD-2034,2025-02-09,Eve Davis,West,Office Supplies,Binder,7,35
+ORD-2035,2025-02-18,Frank Smith,South,Office Supplies,Stapler,8,96
+ORD-2036,2025-02-05,Charlie Moore,East,Furniture,Desk,5,1000
+ORD-2037,2025-02-24,Alice Smith,East,Clothing,Jeans,8,320
+ORD-2038,2025-02-05,Diana Wilson,West,Office Supplies,Stapler,10,120
+ORD-2039,2025-02-11,Frank Brown,East,Clothing,Sneakers,6,300
+ORD-2040,2025-02-24,Charlie Moore,West,Electronics,Smartphone,10,6000
+ORD-2041,2025-02-21,Eve Doe,North,Office Supplies,Binder,2,10
+ORD-2042,2025-02-02,Charlie Moore,South,Office Supplies,Stapler,10,120
+ORD-2043,2025-02-20,Eve Moore,North,Electronics,Laptop,10,8000
+ORD-2044,2025-02-12,Jane Wilson,South,Clothing,Sneakers,2,100
+ORD-2045,2025-02-20,Frank Brown,West,Office Supplies,Stapler,8,96
+ORD-2046,2025-02-12,Charlie Johnson,West,Office Supplies,Pen Set,8,80
+ORD-2047,2025-02-03,Diana Smith,North,Furniture,Chair,8,800
+ORD-2048,2025-02-19,Jane Miller,West,Clothing,T-Shirt,2,40
+ORD-2049,2025-02-26,Frank Davis,North,Clothing,Jacket,2,120
+ORD-2050,2025-02-01,Charlie Wilson,South,Clothing,Sneakers,8,400
+ORD-2051,2025-02-05,Diana Wilson,South,Office Supplies,Pen Set,10,100
+ORD-2052,2025-02-21,Diana Wilson,East,Clothing,Sneakers,9,450
+ORD-2053,2025-02-27,Jane Brown,North,Clothing,Jeans,2,80
+ORD-2054,2025-02-07,John Johnson,North,Furniture,Chair,7,700
+ORD-2055,2025-02-25,Frank Smith,South,Electronics,Monitor,3,450
+ORD-2056,2025-02-24,Eve Brown,West,Clothing,Jeans,5,200
+ORD-2057,2025-02-28,Alice Moore,North,Clothing,Jacket,6,360
+ORD-2058,2025-02-09,John Davis,East,Office Supplies,Paper,8,64
+ORD-2059,2025-02-10,Charlie Davis,East,Office Supplies,Stapler,4,48
+ORD-2060,2025-02-18,Eve Moore,North,Clothing,Sneakers,4,200
+ORD-2061,2025-02-28,Alice Johnson,West,Electronics,Monitor,7,1050
+ORD-2062,2025-02-12,Alice Doe,North,Furniture,Desk,8,1600
+ORD-2063,2025-02-05,Charlie Davis,South,Electronics,Smartphone,7,4200
+ORD-2064,2025-02-05,Frank Smith,South,Clothing,T-Shirt,9,180
+ORD-2065,2025-02-26,John Moore,East,Clothing,T-Shirt,2,40
+ORD-2066,2025-02-20,Diana Brown,North,Clothing,Jacket,9,540
+ORD-2067,2025-02-03,Alice Smith,North,Office Supplies,Stapler,6,72
+ORD-2068,2025-02-18,Charlie Johnson,North,Electronics,Monitor,6,900
+ORD-2069,2025-02-16,Diana Davis,South,Electronics,Laptop,7,5600
+ORD-2070,2025-02-18,Bob Doe,South,Furniture,Bookshelf,2,160
+ORD-2071,2025-02-01,Bob Smith,West,Furniture,Desk,5,1000
+ORD-2072,2025-02-21,Charlie Miller,West,Electronics,Monitor,5,750
+ORD-2073,2025-02-02,John Johnson,West,Clothing,Jacket,9,540
+ORD-2074,2025-02-14,Diana Wilson,East,Electronics,Laptop,6,4800
+ORD-2075,2025-02-25,Diana Johnson,South,Electronics,Monitor,3,450
+ORD-2076,2025-02-20,Eve Brown,East,Electronics,Monitor,4,600
+ORD-2077,2025-02-26,John Smith,North,Furniture,Table,3,450
+ORD-2078,2025-02-10,Bob Moore,East,Furniture,Table,10,1500
+ORD-2079,2025-02-23,Jane Miller,West,Office Supplies,Binder,6,30
+ORD-2080,2025-02-05,Charlie Wilson,South,Furniture,Chair,9,900
+ORD-2081,2025-02-28,Frank Davis,South,Clothing,Jacket,4,240
+ORD-2082,2025-02-16,John Doe,North,Office Supplies,Pen Set,6,60
+ORD-2083,2025-02-08,Jane Brown,South,Electronics,Monitor,4,600
+ORD-2084,2025-02-15,Bob Wilson,South,Furniture,Bookshelf,2,160
+ORD-2085,2025-02-17,John Johnson,South,Electronics,Monitor,5,750
+ORD-2086,2025-02-22,Jane Johnson,North,Furniture,Chair,8,800
+ORD-2087,2025-02-01,Charlie Miller,South,Clothing,Jacket,3,180
+ORD-2088,2025-02-07,Bob Smith,East,Office Supplies,Binder,4,20
+ORD-2089,2025-02-15,Alice Brown,East,Electronics,Headphones,10,500
+ORD-2090,2025-02-25,Charlie Brown,South,Electronics,Monitor,9,1350
+ORD-2091,2025-02-28,Diana Davis,West,Clothing,Jeans,8,320
+ORD-2092,2025-02-17,Diana Doe,East,Electronics,Smartphone,6,3600
+ORD-2093,2025-02-23,Alice Wilson,South,Office Supplies,Pen Set,9,90
+ORD-2094,2025-02-07,Jane Miller,North,Clothing,Jacket,8,480
+ORD-2095,2025-02-17,Charlie Smith,East,Clothing,Sneakers,1,50
+ORD-2096,2025-02-13,John Johnson,West,Clothing,Sneakers,4,200
+ORD-2097,2025-02-02,Diana Brown,South,Clothing,T-Shirt,2,40
+ORD-2098,2025-02-22,Charlie Wilson,North,Clothing,Jacket,5,300
+ORD-2099,2025-02-12,John Miller,East,Clothing,Jacket,9,540
+ORD-2100,2025-02-07,Bob Miller,East,Clothing,Sneakers,10,500

@@ -1,0 +1,101 @@
+Order ID,Date,Customer Name,Region,Category,Product,Quantity,Total Sales
+ORD-3001,2025-03-29,Eve Brown,South,Electronics,Smartphone,1,600
+ORD-3002,2025-03-06,Bob Smith,South,Furniture,Table,3,450
+ORD-3003,2025-03-05,John Doe,South,Furniture,Table,10,1500
+ORD-3004,2025-03-13,Eve Johnson,South,Electronics,Laptop,2,1600
+ORD-3005,2025-03-13,John Brown,North,Office Supplies,Stapler,5,60
+ORD-3006,2025-03-03,Eve Brown,West,Office Supplies,Stapler,4,48
+ORD-3007,2025-03-15,Bob Miller,South,Office Supplies,Pen Set,1,10
+ORD-3008,2025-03-21,Jane Johnson,North,Furniture,Table,7,1050
+ORD-3009,2025-03-21,Diana Wilson,South,Office Supplies,Pen Set,7,70
+ORD-3010,2025-03-19,Eve Davis,North,Electronics,Monitor,9,1350
+ORD-3011,2025-03-10,Frank Moore,East,Furniture,Desk,6,1200
+ORD-3012,2025-03-14,Eve Johnson,North,Electronics,Smartphone,8,4800
+ORD-3013,2025-03-03,Eve Johnson,West,Clothing,Jeans,9,360
+ORD-3014,2025-03-16,Frank Wilson,South,Clothing,T-Shirt,3,60
+ORD-3015,2025-03-20,Frank Davis,East,Furniture,Bookshelf,7,560
+ORD-3016,2025-03-24,Charlie Miller,West,Furniture,Bookshelf,8,640
+ORD-3017,2025-03-18,Charlie Wilson,North,Office Supplies,Binder,3,15
+ORD-3018,2025-03-08,Frank Johnson,North,Office Supplies,Binder,1,5
+ORD-3019,2025-03-03,Diana Davis,East,Office Supplies,Stapler,5,60
+ORD-3020,2025-03-01,Bob Smith,South,Furniture,Bookshelf,6,480
+ORD-3021,2025-03-20,Frank Moore,West,Electronics,Headphones,2,100
+ORD-3022,2025-03-10,Diana Wilson,South,Clothing,Jeans,1,40
+ORD-3023,2025-03-20,Eve Brown,South,Furniture,Table,8,1200
+ORD-3024,2025-03-13,Alice Moore,South,Clothing,Sneakers,1,50
+ORD-3025,2025-03-31,Jane Davis,West,Furniture,Desk,9,1800
+ORD-3026,2025-03-21,John Davis,West,Clothing,T-Shirt,5,100
+ORD-3027,2025-03-18,Diana Doe,East,Electronics,Smartphone,2,1200
+ORD-3028,2025-03-11,Bob Davis,North,Electronics,Smartphone,4,2400
+ORD-3029,2025-03-01,Bob Moore,South,Office Supplies,Pen Set,10,100
+ORD-3030,2025-03-18,Jane Davis,West,Office Supplies,Pen Set,4,40
+ORD-3031,2025-03-20,Bob Miller,East,Electronics,Smartphone,10,6000
+ORD-3032,2025-03-17,Frank Miller,West,Office Supplies,Binder,6,30
+ORD-3033,2025-03-10,Jane Brown,West,Electronics,Laptop,8,6400
+ORD-3034,2025-03-02,Diana Miller,North,Furniture,Desk,9,1800
+ORD-3035,2025-03-19,Frank Davis,South,Clothing,Sneakers,5,250
+ORD-3036,2025-03-17,Bob Brown,East,Electronics,Smartphone,2,1200
+ORD-3037,2025-03-15,Eve Wilson,East,Furniture,Desk,7,1400
+ORD-3038,2025-03-27,Frank Moore,East,Clothing,T-Shirt,6,120
+ORD-3039,2025-03-30,Diana Wilson,East,Furniture,Bookshelf,10,800
+ORD-3040,2025-03-04,Eve Davis,South,Furniture,Chair,9,900
+ORD-3041,2025-03-04,Frank Miller,South,Clothing,Jeans,3,120
+ORD-3042,2025-03-07,Alice Miller,East,Furniture,Bookshelf,7,560
+ORD-3043,2025-03-22,Alice Davis,West,Electronics,Monitor,9,1350
+ORD-3044,2025-03-20,Jane Smith,North,Clothing,Sneakers,8,400
+ORD-3045,2025-03-15,John Davis,West,Clothing,T-Shirt,10,200
+ORD-3046,2025-03-04,Frank Davis,East,Furniture,Chair,4,400
+ORD-3047,2025-03-27,Eve Brown,North,Office Supplies,Binder,1,5
+ORD-3048,2025-03-07,Alice Johnson,South,Clothing,Jeans,8,320
+ORD-3049,2025-03-16,Frank Miller,North,Office Supplies,Paper,7,56
+ORD-3050,2025-03-22,Diana Moore,North,Electronics,Headphones,4,200
+ORD-3051,2025-03-31,Eve Davis,East,Office Supplies,Stapler,4,48
+ORD-3052,2025-03-08,Eve Brown,North,Electronics,Monitor,3,450
+ORD-3053,2025-03-15,Eve Davis,West,Office Supplies,Binder,6,30
+ORD-3054,2025-03-15,Diana Wilson,East,Furniture,Desk,8,1600
+ORD-3055,2025-03-08,Frank Smith,North,Electronics,Monitor,10,1500
+ORD-3056,2025-03-11,Jane Moore,South,Furniture,Table,9,1350
+ORD-3057,2025-03-21,Diana Davis,North,Electronics,Monitor,3,450
+ORD-3058,2025-03-23,Eve Doe,North,Electronics,Smartphone,9,5400
+ORD-3059,2025-03-01,John Moore,East,Electronics,Laptop,8,6400
+ORD-3060,2025-03-18,Frank Moore,East,Electronics,Smartphone,6,3600
+ORD-3061,2025-03-25,Charlie Smith,North,Electronics,Headphones,6,300
+ORD-3062,2025-03-10,Frank Davis,West,Furniture,Chair,9,900
+ORD-3063,2025-03-04,Bob Davis,South,Office Supplies,Stapler,6,72
+ORD-3064,2025-03-26,John Wilson,East,Furniture,Chair,4,400
+ORD-3065,2025-03-20,Eve Doe,North,Electronics,Smartphone,10,6000
+ORD-3066,2025-03-14,Diana Brown,North,Electronics,Laptop,8,6400
+ORD-3067,2025-03-03,Charlie Johnson,East,Electronics,Smartphone,1,600
+ORD-3068,2025-03-20,Frank Davis,North,Office Supplies,Stapler,7,84
+ORD-3069,2025-03-17,Diana Johnson,North,Office Supplies,Binder,4,20
+ORD-3070,2025-03-12,Bob Johnson,East,Electronics,Smartphone,6,3600
+ORD-3071,2025-03-16,Bob Johnson,West,Electronics,Monitor,10,1500
+ORD-3072,2025-03-26,Frank Wilson,South,Clothing,Jeans,4,160
+ORD-3073,2025-03-28,Diana Doe,West,Office Supplies,Stapler,8,96
+ORD-3074,2025-03-23,John Brown,South,Clothing,Jacket,6,360
+ORD-3075,2025-03-30,Alice Davis,North,Office Supplies,Paper,7,56
+ORD-3076,2025-03-27,John Wilson,South,Clothing,Jacket,1,60
+ORD-3077,2025-03-08,Jane Davis,North,Furniture,Bookshelf,7,560
+ORD-3078,2025-03-13,Charlie Johnson,South,Electronics,Headphones,6,300
+ORD-3079,2025-03-08,Eve Johnson,North,Electronics,Headphones,5,250
+ORD-3080,2025-03-01,Eve Wilson,East,Office Supplies,Pen Set,9,90
+ORD-3081,2025-03-17,Eve Wilson,East,Clothing,Jacket,10,600
+ORD-3082,2025-03-16,John Moore,West,Furniture,Desk,8,1600
+ORD-3083,2025-03-28,Frank Smith,East,Clothing,Sneakers,1,50
+ORD-3084,2025-03-23,Alice Wilson,East,Clothing,Sneakers,5,250
+ORD-3085,2025-03-22,Bob Miller,East,Furniture,Bookshelf,7,560
+ORD-3086,2025-03-04,Frank Johnson,North,Electronics,Headphones,2,100
+ORD-3087,2025-03-24,Diana Doe,East,Office Supplies,Paper,9,72
+ORD-3088,2025-03-08,Charlie Brown,South,Office Supplies,Paper,6,48
+ORD-3089,2025-03-03,Bob Smith,West,Clothing,Jeans,8,320
+ORD-3090,2025-03-27,Frank Wilson,West,Office Supplies,Binder,1,5
+ORD-3091,2025-03-01,Diana Brown,South,Clothing,Sneakers,5,250
+ORD-3092,2025-03-14,Bob Smith,West,Furniture,Chair,10,1000
+ORD-3093,2025-03-09,Eve Doe,South,Office Supplies,Pen Set,5,50
+ORD-3094,2025-03-27,Diana Davis,North,Furniture,Bookshelf,3,240
+ORD-3095,2025-03-06,John Davis,North,Furniture,Table,7,1050
+ORD-3096,2025-03-26,Alice Wilson,North,Furniture,Bookshelf,7,560
+ORD-3097,2025-03-29,Alice Johnson,North,Office Supplies,Stapler,6,72
+ORD-3098,2025-03-15,Frank Doe,East,Clothing,Jacket,9,540
+ORD-3099,2025-03-24,Eve Miller,North,Electronics,Headphones,8,400
+ORD-3100,2025-03-01,Alice Davis,South,Office Supplies,Stapler,2,24
